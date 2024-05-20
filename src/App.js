@@ -1,9 +1,10 @@
 import './App.css';
+import Button from './components/Button';
 
 function App() {
   return (
     <div className="App" id="quote-box">
-      <button></button>
+      <Button buttonDisplayName="Next Quote"></Button>
     </div>
   );
 }
